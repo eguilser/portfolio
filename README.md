@@ -1,49 +1,44 @@
-# 📊 **Project Title: Interactive Routing Algorithm Visualization**
+# 🚀 **The React TypeScript Wizard!**
 
-Welcome to the **Interactive Routing Algorithm Visualization** project! This application brings complex network routing algorithms to life with intuitive visualizations, helping users understand how algorithms like **Dijkstra's** or **Bellman-Ford** work in real-time.
+Welcome to **The React TypeScript Wizard!**, a responsive web application designed to showcase a catalogue of online courses. This project demonstrates advanced React and TypeScript skills, with features like course browsing, detailed lesson viewing, and a powerful state management system using Redux Toolkit.
 
 ---
 
 ## 🌟 **Features**
 
-- 🚀 **Real-time visualization** of routing algorithms on dynamic graphs.
-- 🔄 **Interactive controls** to add/remove nodes and edges.
-- 📈 **Performance comparison** between algorithms.
-- 🎨 Clean and responsive UI built for both desktop and mobile users.
+- 📚 Browse and explore a catalogue of online courses.
+- 📝 View detailed course descriptions, modules, and lessons.
+- 🎥 Render different content types seamlessly (text, video, audio, podcasts).
+- 🔍 **Search functionality** to find courses by title or description.
+- 🔄 State management using **Redux Toolkit** with asynchronous data fetching.
+- 📱 Fully responsive design for an excellent user experience on all devices.
 
 ---
 
 ## 🛠️ **Technologies Used**
 
 - **Frontend**: React + TypeScript
-- **Data Visualization**: D3.js
+- **State Management**: Redux Toolkit
+- **Data Fetching**: Async Thunks
 - **Styling**: TailwindCSS
 - **Hosting**: GitHub Pages
+- **Testing**: Basic Unit Tests with Jest
 
 ---
 
-## 💡 **How It Works**
+## 💡 **Project Overview**
 
-1. **Create Your Graph**: Use the interactive canvas to add nodes and connect them with edges.
-2. **Select an Algorithm**: Choose from supported algorithms like **Dijkstra's** or **Bellman-Ford**.
-3. **Visualize the Pathfinding Process**: Watch the algorithm calculate the shortest paths step by step.
-4. **Compare Algorithms**: Analyze their performance with side-by-side comparisons.
+The application provides users with an intuitive interface to:
 
----
-
-## 📸 **Screenshots**
-
-![Screenshot 1](https://via.placeholder.com/800x400)  
-*Creating a graph and selecting an algorithm.*
-
-![Screenshot 2](https://via.placeholder.com/800x400)  
-*Visualizing Dijkstra's algorithm in action.*
+1. Browse courses and their details.
+2. View course modules and lessons, with dynamic navigation.
+3. Access multi-type content: text, video, audio, and podcasts.
+4. Search courses by keywords for quick access.
 
 ---
 
-## 🚀 **Getting Started**
 
-Follow these instructions to get a copy of the project up and running on your local machine for development or testing purposes.
+## 🛠️ **Setup and Installation**
 
 ### Prerequisites
 
@@ -52,14 +47,14 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ### Installation
 
-1. Clone the repo:
+1. Clone the repository:
    ```bash
-   git clone https://github.com/eguilser/interactive-routing-visualization.git
+   git clone https://github.com/eguilser/react-typescript-wizard.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd interactive-routing-visualization
+   cd react-typescript-wizard
    ```
 
 3. Install dependencies:
@@ -83,36 +78,48 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ---
 
-## 🌐 **Live Demo**
+## 📋 **Functionality Breakdown**
 
-Check out the live version of the project here: [Interactive Routing Visualization](https://eguilser.github.io/interactive-routing-visualization/)
+### Course Browsing
+- Display a list of all courses.
+- Search courses by title or description.
 
----
+### Course Details
+- View course description and modules.
+- Navigate through lessons in each module.
 
-## 📚 **Documentation**
-
-### Supported Algorithms:
-- **Dijkstra's Algorithm**: Finds the shortest path from a source to all other nodes.
-- **Bellman-Ford Algorithm**: Handles graphs with negative weights.
-
-### Interactive Features:
-- Add/remove nodes and edges dynamically.
-- Adjust edge weights in real time.
-- Toggle algorithm speed for better understanding.
+### Lesson Viewer
+- Render lesson content with support for text, video, audio, and podcast formats.
 
 ---
 
-## 🤝 **Contributing**
+## 🏗️ **Redux Toolkit Implementation**
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+1. **Store Setup**: Configured with `configureStore`.
+2. **Slices**:
+   - Courses: Handles course data.
+   - Current Course: Tracks selected course, module, and lesson.
+   - UI State: Manages search and navigation states.
+3. **Async Thunks**: Fetch courses data from a JSON file.
+4. **Selectors**: Memoized selectors for efficient state management.
 
-### Steps to Contribute
+---
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+## 🔍 **TypeScript Features**
+
+- Strict type checking with custom interfaces for:
+  - Courses, Modules, Lessons, and Content.
+- Full typing for React functional components and Redux state management.
+- Ensures maintainable and error-free code.
+
+---
+
+## 🧪 **Testing**
+
+- Basic unit tests implemented using Jest.
+- Coverage for:
+  - Reducers and actions.
+  - Component rendering and interactivity.
 
 ---
 
@@ -120,6 +127,7 @@ Contributions are what make the open-source community such an amazing place to l
 
 Sergio (eguilser)  
 [GitHub Profile](https://github.com/eguilser)  
+[LinkedIn Profile](https://www.linkedin.com/in/sergio-egu%C3%ADluz-43482a265/) 
 
 ---
 
@@ -131,5 +139,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### 🌟 **Acknowledgements**
 
-- Inspired by real-world network engineering challenges.
-- Thanks to the open-source community for amazing tools like React and D3.js.
+- Inspired by the React and TypeScript developer community.
+- Thanks to Redux Toolkit and TailwindCSS for simplifying development.
+
+
+---
