@@ -3,7 +3,7 @@ A responsive React and TypeScript application for browsing, viewing, and searchi
 ## Author-💪
 **Sergio Eguíluz**
 *[LinkedIn] (https://www.linkedin.com/in/sergio-egu%C3%ADluz-43482a265/)
-## Licencia💡
+## License💡
 MTT Public License v3.0
 Cannot use for comercial porpuses
 
